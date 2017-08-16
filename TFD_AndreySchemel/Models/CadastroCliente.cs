@@ -6,15 +6,13 @@ using System.Web.Mvc;
 
 namespace TFD_AndreySchemel.Models
 {
-    public class AlunosController
+    public class CadastroCliente
+
     {
         public int Id { get; set; }
 
         public string Nome { get; set; }
 
-        public int NumeroClasse { get; set; }
-
-        public string Disciplina { get; set; }
 
     }
 }
