@@ -6,12 +6,16 @@ using System.Web.Mvc;
 
 namespace TFD_AndreySchemel.Models
 {
-    public class CadastroCliente
+    public class Cliente
 
     {
         public int Id { get; set; }
 
         public string Nome { get; set; }
+
+        public int numeroTelefone { get; set; }
+
+        public string email { get; set; }
 
 
     }
