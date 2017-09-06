@@ -53,3 +53,9 @@ C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_And
 C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.csprojResolveAssemblyReference.cache
 C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.dll
 C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.pdb
+C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.Migrations.TFD_Andrey.resources
+C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.csproj.GenerateResource.Cache
+C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.Migrations.TFD_Andrey1.resources
+C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.Migrations.AddMembershipType.resources
+C:\Users\andrey.schemel.CATOLICASC\Documents\Visual Studio 2013\Projects\TFD_AndreySchemel\TFD_AndreySchemel\obj\Debug\TFD_AndreySchemel.Migrations.PopulateMembershipTypes.resources
