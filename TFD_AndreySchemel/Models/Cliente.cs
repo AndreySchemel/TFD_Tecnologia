@@ -16,7 +16,5 @@ namespace TFD_AndreySchemel.Models
         public int numeroTelefone { get; set; }
 
         public string email { get; set; }
-
-
     }
 }

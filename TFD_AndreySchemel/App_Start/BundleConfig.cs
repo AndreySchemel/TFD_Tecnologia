@@ -20,11 +20,11 @@ namespace TFD_AndreySchemel
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap-lumen").Include(
-                      "~/Scripts/bootstrap-lumen.js",
+                      "~/Scripts/bootstrap-cyborg.js",
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap-lumen.css",
+                      "~/Content/bootstrap-cyborg.css",
                       "~/Content/site.css"));
         }
     }

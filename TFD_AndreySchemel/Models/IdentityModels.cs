@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System.Data.Entity;
 
 namespace TFD_AndreySchemel.Models
 {
@@ -9,9 +10,16 @@ namespace TFD_AndreySchemel.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Cliente> Clientes { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection")
         {
+        }
+
+        public static ApplicationDbContext Create()
+        {
+            return new ApplicationDbContext();
         }
     }
 }
