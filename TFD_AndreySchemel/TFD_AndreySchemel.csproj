@@ -176,6 +176,10 @@
     <Compile Include="Migrations\201709060008079_TFD_Andrey1.Designer.cs">
       <DependentUpon>201709060008079_TFD_Andrey1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201709200017382_MigrationProjeto.cs" />
+    <Compile Include="Migrations\201709200017382_MigrationProjeto.Designer.cs">
+      <DependentUpon>201709200017382_MigrationProjeto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Carros.cs" />
@@ -259,6 +263,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201709060008079_TFD_Andrey1.resx">
       <DependentUpon>201709060008079_TFD_Andrey1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709200017382_MigrationProjeto.resx">
+      <DependentUpon>201709200017382_MigrationProjeto.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

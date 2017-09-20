@@ -12,6 +12,7 @@ namespace TFD_AndreySchemel.Models
     {
         public DbSet<Cliente> Clientes { get; set; }
 
+
         public ApplicationDbContext()
             : base("DefaultConnection")
         {

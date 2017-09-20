@@ -19,6 +19,18 @@ namespace TFD_AndreySchemel.Controllers
             new Cliente {Id = 3, Nome = "Schemel", email = "andrey@unerj.br", numeroTelefone = 16546}
         };
 
+        private ApplicationDbContext _context;
+
+        public ClientesController()
+        {
+            _context = new ApplicationDbContext();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            _context.Dispose();
+        }
+
         public ActionResult Index()
         {
             return View(Clientes);
