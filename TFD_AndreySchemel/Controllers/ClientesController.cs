@@ -48,6 +48,19 @@ namespace TFD_AndreySchemel.Controllers
             return View(cliente);
         }
 
+        public ActionResult Create(Cliente cliente)
+        {
+            if (ModelState.IsValid)
+            {
+                respository.Save(cliente);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return View(cliente);
+            }
+        }
+
        
 
 

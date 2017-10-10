@@ -22,3 +22,27 @@
         </tbody>
     </table>
 }
+
+<p>
+    @Html.ActionLink("Adicionar Cliente", "Create")
+</p>
+<table class="table" id="">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nome)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>  
